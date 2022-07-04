@@ -1,10 +1,17 @@
 .list {
   margin-bottom: 30px;
 
+  &__add-button {
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
   li {
     display: flex;
     align-items: center;
-    padding: 10ppx 12px;
     cursor: pointer;
     margin-bottom: 5px;
 
@@ -26,9 +33,7 @@
     }
 
     .badge {
-
-      border-radius: 30px;
-
+      border-radius: 10px;
       &--green {
         background-color: #42b883;
       }

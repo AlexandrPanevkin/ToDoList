@@ -1,5 +1,8 @@
 import React from "react";
+import AddButtonList from "./components/AddButtonList/AddButtonList";
 import List from "./components/List";
+
+import DB from './assets/db'
 
 function App() {
   return (
@@ -23,11 +26,12 @@ function App() {
                 </svg>
               ),
               name: "Все задачи",
-              active: true
+              active: true,
             },
           ]}
+          isRemovable
         />
-         <List
+        <List
           items={[
             {
               color: "green",
@@ -42,7 +46,9 @@ function App() {
               name: "Фильмы и сериалы",
             },
           ]}
+          isRemovable
         />
+        <AddButtonList colors={DB.colors} />
       </div>
       <div className="todo__tasks"></div>
     </div>
