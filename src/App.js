@@ -1,6 +1,6 @@
 import React from "react";
 import AddButtonList from "./components/AddButtonList/AddButtonList";
-import List from "./components/List";
+import List from "./components/List/List";
 
 import DB from './assets/db'
 

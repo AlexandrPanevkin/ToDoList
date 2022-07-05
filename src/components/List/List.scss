@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin-bottom: 5px;
+    padding: 10px 12px;
 
     &.active {
       background: #ffffff;
@@ -21,29 +21,19 @@
       border-radius: 4px;
     }
 
+    .badge {
+      position: relative;
+      left: 5px;
+    }
+
     i {
-      padding: 10px;
+      margin-right: 8px;
       display: inline-flex;
 
       svg {
         path {
           fill: #7c7c7c;
         }
-      }
-    }
-
-    .badge {
-      border-radius: 10px;
-      &--green {
-        background-color: #42b883;
-      }
-
-      &--blue {
-        background-color: #64c4ed;
-      }
-
-      &--pink {
-        background-color: #ffbbcc;
       }
     }
   }
