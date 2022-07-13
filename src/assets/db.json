@@ -2,12 +2,12 @@
   "lists": [
     {
       "id": 1,
-      "name": "Продажи",
+      "name": "Учеба",
       "colorId": 5
     },
     {
       "id": 2,
-      "name": "Фронтенд",
+      "name": "Разработка",
       "colorId": 4
     },
     {
@@ -31,7 +31,7 @@
       "id": 6
     },
     {
-      "name": "Курс по ReactJS ToDo",
+      "name": "Музыка",
       "colorId": 7,
       "id": 7
     }
