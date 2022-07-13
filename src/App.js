@@ -17,7 +17,7 @@ function App() {
 
   const onAddList = (obj) => {
     const newList = [...lists, obj];
-    setLists(newList)
+    setLists(newList);
   };
 
   return (
@@ -44,9 +44,14 @@ function App() {
               active: true,
             },
           ]}
+        />
+        <List
+          items={lists}
+          onRemove={(list) => {
+            alert(list);
+          }}
           isRemovable
         />
-        <List items={lists} isRemovable />
         <AddButtonList onAdd={onAddList} colors={DB.colors} />
       </div>
       <div className="todo__tasks"></div>
