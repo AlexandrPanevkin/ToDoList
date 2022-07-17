@@ -3,7 +3,7 @@ import AddButtonList from "./components/AddButtonList/AddButtonList";
 import List from "./components/List/List";
 
 import DB from "./assets/db";
-
+import Tasks from "./components/Tasks/Tasks";
 function App() {
   const [lists, setLists] = useState(
     DB.lists.map((item) => {
@@ -54,7 +54,9 @@ function App() {
         />
         <AddButtonList onAdd={onAddList} colors={DB.colors} />
       </div>
-      <div className="todo__tasks"></div>
+      <div className="todo__tasks">
+        <Tasks />
+      </div>
     </div>
   );
 }

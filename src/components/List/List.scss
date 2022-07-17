@@ -16,12 +16,14 @@
     align-items: center;
     cursor: pointer;
     padding: 10px 12px;
+    transition: background-color 0.15s ease-in-out;
 
     &:hover #{$self}__remove-icon {
       opacity: 0.2;
     }
 
     #{$self}__remove-icon {
+      transition: opacity 0.15s ease-in-out;
       opacity: 0;
 
       &:hover {
