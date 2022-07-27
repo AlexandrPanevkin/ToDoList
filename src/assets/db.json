@@ -80,18 +80,6 @@
       "id": 7
     },
     {
-      "listId": 1,
-      "text": "qweqwe",
-      "completed": true,
-      "id": 8
-    },
-    {
-      "listId": 1,
-      "text": "123",
-      "completed": false,
-      "id": 9
-    },
-    {
       "listId": 4,
       "text": "Купить 1984!",
       "completed": true,
@@ -120,18 +108,6 @@
       "text": "342324",
       "completed": false,
       "id": 15
-    },
-    {
-      "listId": 1,
-      "text": "54466446",
-      "completed": false,
-      "id": 16
-    },
-    {
-      "listId": 1,
-      "text": "sdf",
-      "completed": false,
-      "id": 17
     },
     {
       "listId": 5,
@@ -170,16 +146,16 @@
       "id": 23
     },
     {
-      "listId": 1,
-      "text": "12",
-      "completed": false,
-      "id": 24
-    },
-    {
       "listId": 6,
       "text": "12",
       "completed": false,
       "id": 25
+    },
+    {
+      "listId": 4,
+      "text": "Форест Гамп",
+      "completed": false,
+      "id": 26
     }
   ],
   "colors": [
